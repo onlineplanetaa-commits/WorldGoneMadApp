@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'info.uastena.worldgonemad'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'info.uastena.worldgonemad'
+        minSdk 21
+        targetSdk 28
+        versionCode 1
+        versionName '1.0'
+    }
+}
